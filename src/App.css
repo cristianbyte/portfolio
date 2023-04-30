@@ -1,3 +1,9 @@
+:root{
+  --platinum: #E0E0E0;
+  --gray: #7A7A7A;
+  
+}
+
 body{
   background-color: black;
   display: flex;
