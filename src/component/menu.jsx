@@ -29,8 +29,8 @@ export default function Menu() {
         <div className="menu__option">{
           isHorizontal ? <>
               <div className="menu__option--i">Home</div>
-              <div className="menu__option--i">Proyects</div>
-              <div className="menu__option--i">About Me</div>
+              <div className="menu__option--i">Projects</div>
+              <div className="menu__option--i">About</div>
               <div className="menu__option--i">Contact</div> 
             </> : <>
               < UilEstate/>

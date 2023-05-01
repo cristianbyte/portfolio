@@ -16,7 +16,7 @@
     margin: 0 5vw;
     height: 10vh;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--gray);
     color: white;
 }
 
@@ -47,17 +47,15 @@
     align-items: center;
     height: 100%;
     font-family: second;
-    background: -webkit-linear-gradient(0deg, var(--platinum) , var(--gray));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: .4s ease-in;
+    color: var(--gray);
+    transition: .1s ease-out;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .menu__option--i:hover{
-    background: -webkit-linear-gradient(0deg, var(--gray) , var(--platinum));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--platinum);
+    text-shadow: 0px 0px 5px var(--platinum);
 }
 
 @media (orientation: portrait) {
@@ -65,15 +63,17 @@
         justify-content: center;
     }
     .menu__option{
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
         height: 8vh;
         justify-content: space-evenly;
-        border-top: 1px solid var(--platinum);
+        border-top: 1px solid var(--gray);
     }
     .menu__option svg{
-        width: 2rem;
+        width: 20%;
         height: 2rem;
+        color: var(--gray);
+        cursor: pointer;
     }
 }

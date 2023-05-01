@@ -1,3 +1,14 @@
+:root{
+  --platinum: #E0E0E0;
+  --gray: #7A7A7A;
+  --fuchsia: #ff00ff;
+
+}
+
+body{
+  background-color: black;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
